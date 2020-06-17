@@ -23,7 +23,7 @@ ul {
 }
 
 .logo-external {
-  max-width: 5rem;
+  max-width: 4.5rem;
   height: auto;
 }
 
@@ -33,7 +33,7 @@ ul {
 }
 
 .wrapper {
-  padding: 1.5em;
+  padding: 1em;
   max-width: 1200;
   margin: 0 auto;
 }
@@ -103,5 +103,21 @@ header ul li a {
 
 .links #linkedin {
   margin-top: 7px;
+}
+
+.text-wrapper {
+  background: #0f2557;
+}
+
+.text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: .8em;
+  line-height: 1.4em;
 }
 /*# sourceMappingURL=main.css.map */
