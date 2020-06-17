@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+
+// Color pallette:
+
+$color-background: #150734;
+$color-content: #0a1b42;
+$color-content-light: #0f2557;
+$color-dontknowyet: #3778c2;
+$color-highlight: #4b9fe1;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $color-background;
+    color: white;
+    font-family: "Montserrat";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-external {
+    max-width: 4.5rem;
+    height: auto;
+}
+
+.hero-wrapper {
+    background: url("../images/Hero-images/setup.jpg");
+    background-size: cover;
+    min-height: 300px;
+}
+
+.wrapper {
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        li a {
+            padding: 0.6em;
+        }
+    }
+}
+
+.hero-content {
+    margin: 4em 0 2em;
+
+    .subtitle {
+        margin-bottom: 0;
+    }
+}
+
+.content-wrapper {
+    background: $color-content;
+}
+
+.content-wrapper-light {
+    background: $color-content-light;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 0fr));
+    justify-content: center;
+    margin-top: 1em;
+
+    ul {
+        justify-content: center;
+    }
+
+    li {
+        margin-bottom: 0.5em;
+        justify-content: center;
+    }
+
+    #linkedin {
+        margin-top: 7px;
+    }
+}
+
+.text-wrapper {
+    background: $color-content-light;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.text {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: .9em;
+    line-height: 1.4em;
+}
+
+@media (min-width: 853px) {
+    body {
+        font-size: 20px;
+    }
+
+    .hero-wrapper {
+        min-height: 450px;
+    }
+}
