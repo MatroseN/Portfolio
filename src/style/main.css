@@ -30,11 +30,12 @@ ul {
 .hero-wrapper {
   background: url("../images/Hero-images/setup.jpg");
   background-size: cover;
+  min-height: 300px;
 }
 
 .wrapper {
   padding: 1em;
-  max-width: 1200;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -107,17 +108,27 @@ header ul li a {
 
 .text-wrapper {
   background: #0f2557;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .text {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-left: 1em;
   margin-right: 1em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  font-size: .8em;
+  font-size: .9em;
   line-height: 1.4em;
+}
+
+@media (min-width: 853px) {
+  body {
+    font-size: 20px;
+  }
+  .hero-wrapper {
+    min-height: 450px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
