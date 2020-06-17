@@ -23,7 +23,7 @@ ul {
 }
 
 .logo-external {
-  max-width: 7rem;
+  max-width: 5rem;
   height: auto;
 }
 
@@ -67,5 +67,41 @@ header ul li a {
 
 .hero-content .subtitle {
   margin-bottom: 0;
+}
+
+.content-wrapper {
+  background: #0a1b42;
+}
+
+.content-wrapper-light {
+  background: #0f2557;
+}
+
+.links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(130px, 0fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(130px, 0fr));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1em;
+}
+
+.links ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links li {
+  margin-bottom: 0.5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.links #linkedin {
+  margin-top: 7px;
 }
 /*# sourceMappingURL=main.css.map */
